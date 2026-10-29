@@ -159,6 +159,52 @@ const Hero = ({ setIsOpen }) => {
                 })}
               </div>
 
+              {/* ── KEY PROJECT STATS STRIP (Land Parcel, Towers, Floors) ── */}
+              <div className="mt-3.5 sm:mt-4 bg-white rounded-2xl border border-[#AF751C]/30 shadow-[0_8px_25px_rgba(0,0,0,0.05)] py-3 px-2 sm:py-3.5 sm:px-4">
+                <div className="grid grid-cols-3 divide-x divide-gray-200">
+                  
+                  {/* Land Parcel */}
+                  <div className="text-center px-1 sm:px-2">
+                    <div className="w-9 h-9 sm:w-11 sm:h-11 rounded-full border-2 border-[#AF751C] bg-[#FFF8EC] text-[#AF751C] flex items-center justify-center mx-auto mb-1.5 sm:mb-2 shadow-xs">
+                      <i className="fa-solid fa-tree text-[13px] sm:text-[16px]"></i>
+                    </div>
+                    <div className="text-[#111111] font-black text-[13px] sm:text-[16px] md:text-[18px] tracking-tight uppercase leading-tight">
+                      52 ACRES
+                    </div>
+                    <div className="text-[#6B7280] font-bold text-[9px] sm:text-[11px] md:text-[11.5px] tracking-wider uppercase mt-0.5 sm:mt-1 leading-snug">
+                      LAND PARCEL
+                    </div>
+                  </div>
+
+                  {/* Total Towers */}
+                  <div className="text-center px-1 sm:px-2">
+                    <div className="w-9 h-9 sm:w-11 sm:h-11 rounded-full border-2 border-[#AF751C] bg-[#FFF8EC] text-[#AF751C] flex items-center justify-center mx-auto mb-1.5 sm:mb-2 shadow-xs">
+                      <i className="fa-solid fa-building text-[13px] sm:text-[16px]"></i>
+                    </div>
+                    <div className="text-[#111111] font-black text-[13px] sm:text-[16px] md:text-[18px] tracking-tight uppercase leading-tight">
+                      8 TOWERS
+                    </div>
+                    <div className="text-[#6B7280] font-bold text-[9px] sm:text-[11px] md:text-[11.5px] tracking-wider uppercase mt-0.5 sm:mt-1 leading-snug">
+                      TOTAL TOWERS
+                    </div>
+                  </div>
+
+                  {/* Apartment Size Range */}
+                  <div className="text-center px-1 sm:px-2">
+                    <div className="w-9 h-9 sm:w-11 sm:h-11 rounded-full border-2 border-[#AF751C] bg-[#FFF8EC] text-[#AF751C] flex items-center justify-center mx-auto mb-1.5 sm:mb-2 shadow-xs">
+                      <i className="fa-solid fa-vector-square text-[13px] sm:text-[16px]"></i>
+                    </div>
+                    <div className="text-[#111111] font-black text-[12px] sm:text-[15px] md:text-[17px] tracking-tight uppercase leading-tight whitespace-nowrap">
+                      1,255–2,610 SQ.FT
+                    </div>
+                    <div className="text-[#6B7280] font-bold text-[8.5px] sm:text-[10.5px] md:text-[11px] tracking-wider uppercase mt-0.5 sm:mt-1 leading-snug">
+                      APARTMENT SIZE RANGE
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
             </div>
 
             {/* ══════════════════════════════════════════════════════
