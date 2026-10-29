@@ -28,9 +28,9 @@ const highlights = [
     icon: 'fa-solid fa-handshake'
   },
   {
-    title: 'High Growth Potential',
-    description: 'Located in a rapidly developing area with excellent investment prospects.',
-    icon: 'fa-solid fa-chart-line'
+    title: 'Modern Living in a Developing Area',
+    description: 'Located in a developing neighbourhood with growing infrastructure and convenient connectivity.',
+    icon: 'fa-solid fa-city'
   },
 ]
 
